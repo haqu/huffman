@@ -22,7 +22,7 @@
     he was a Ph.D. student at MIT, and published in the 1952 paper "A Method for the
     Construction of Minimum-Redundancy Codes".
     
-    $ ./huffman
+    $ ./huffman input.txt
     
     41
      	0.164666	110
