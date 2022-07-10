@@ -18,9 +18,11 @@
     use of a variable-length code table for encoding a source symbol (such as a
     character in a file) where the variable-length code table has been derived in a
     particular way based on the estimated probability of occurrence for each
-    possible value of the source symbol. It was developed by David A. Huffman while
-    he was a Ph.D. student at MIT, and published in the 1952 paper "A Method for the
-    Construction of Minimum-Redundancy Codes".
+    possible value of the source symbol. The common character is given the shorter
+    bit length, while the rare character is given the longer bit length in order to 
+    achieve the purpose of compression without losing any data. It was developed 
+    by David A. Huffman while he was a Ph.D. student at MIT, and published in the 1952 
+    paper "A Method for the Construction of Minimum-Redundancy Codes".
     
     $ ./huffman input.txt
     
